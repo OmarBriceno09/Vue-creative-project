@@ -1,0 +1,14 @@
+footer {
+  /*background-color: maroon;*/
+  position: relative;
+  right: 0;
+  bottom:0;
+  left: 0;
+  height: 70px;
+  min-height: 60px;
+  width:100%;
+  padding:15px;
+  align-self:flex-end;
+  text-align: center;
+  clear:both;
+}
