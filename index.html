@@ -5,12 +5,23 @@
         <link rel="stylesheet" href="styles.css" />
         <title>Public American Holidays</title>
     </head>
-    <body>
+    <body style="padding:20px;">
         <h1>Today's American Holiday Is: </h1>
         <div id="app">
             <h2>{{holiday_sequence[0].date}}</h2>
             <h2>{{holiday_sequence[0].name}}</h2>
             <h3>{{holiday_sequence[0].description}}</h3>
+            <hr>
+            <h1>Tomorrow's Holiday Is:</h1>
+            <h2>{{holiday_sequence[1].date}}</h2>
+            <h2>{{holiday_sequence[1].name}}</h2>
+            <h3>{{holiday_sequence[1].description}}</h3>
+            <hr>
+            <h1>The Day After:</h1>
+            <h2>{{holiday_sequence[2].date}}</h2>
+            <h2>{{holiday_sequence[2].name}}</h2>
+            <h3>{{holiday_sequence[2].description}}</h3>
+            
         </div>
         <footer>
             <hr>
